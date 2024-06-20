@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: azure;
+}
+main {
+  width: 80%;
+  margin: auto;
+  padding: 1rem;
+}
+
+header h1 {
+  text-align: center;
+  padding: 1rem;
+}
+img {
+  width: 100%;
+}
+label,
+input,
+textarea {
+  display: block;
+  margin-top: 0.5rem;
+}
+textarea {
+  resize: none;
+}
+aside {
+  display: flex;
+  justify-content: center;
+}
+/* aside, footer {
+    border:1px solid blue;
+} */
+form {
+  width: 60%;
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid black;
+}
+
+button {
+  width: 60%;
+  padding: 0.5rem;
+  display: block;
+  margin: 2rem auto;
+  font-weight: bold;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 5px grey;
+  transition: all 0.5s;
+}
+button:hover {
+  box-shadow: 3px 3px 5px transparent;
+  transition: all 0.5s;
+}
+input:hover,
+textarea:hover {
+  outline: 2px solid green;
+  background-color: lightgoldenrodyellow;
+}
